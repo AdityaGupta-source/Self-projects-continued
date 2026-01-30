@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: #ABC1E1;
+    background: linear-gradient(nulldeg, rgba(152, 180, 223, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.outer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.container{
+    height: 350px;
+    width: 60%;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.title{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 50%;
+    background-color: blue;
+    height: 3px;
+}
+.button-generate-palette{
+    margin-left: 30px;
+    margin-top: 20px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.button-generate-palette:hover{
+    transform: translateY(-5px);
+}
+.colors{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 30px;
+}
+
+.colorShow{
+    height: 110px;
+    width: 110px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.textContent{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.07);
+    margin-top: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px;
+
+}
+.colorName{
+    font-weight: bold;
+}
+.copyClipboard{
+    cursor: pointer;
+}
+.color:hover{
+    transform: translateY(-5px);
+}
